@@ -20,3 +20,5 @@ newrelic_disable_docker: yes
 newrelic_service_enabled: yes
 # current state: started, stopped
 newrelic_service_state: started
+# Template file to use
+newrelic_config_template: etc/newrelic/nrsysmond.cfg.j2
